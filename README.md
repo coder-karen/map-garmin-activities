@@ -1,5 +1,42 @@
 # Map Garmin Activities Block
 
+## Screenshots
+
+<details>
+  <summary>Editor view showing start locations</summary>
+  <img src="assets/editor_view_with_start_locations.png" name="editor_view_with_start_locations">
+</details>
+
+<details>
+  <summary>Full settings sidebar</summary>
+  <img src="assets/full_settings_sidebar.png" name="full_settings_sidebar">
+</details>
+
+<details>
+  <summary>Settings sidebar showing GPX option</summary>
+  <img src="assets/gpx_option_settings_sidebar.png" name="gpx_option_settings_sidebar">
+</details>
+
+<details>
+  <summary>Plugin sidebar showing Mapbox key and Garmin login detail fields</summary>
+  <img src="assets/plugin_sidebar.png" name="plugin_sidebar">
+</details>
+
+<details>
+  <summary>Map showing a GPX route</summary>
+  <img src="assets/gpx_route.png" name="gpx_route">
+</details>
+
+<details>
+  <summary>Activity start location info box for private activity</summary>
+  <img src="assets/info_box_private_activity.png" name="info_box_private_activity">
+</details>
+
+<details>
+  <summary>Activity start location info box for public activity</summary>
+  <img src="assets/info_box_public_activity.png" name="info_box_public_activity">
+</details>
+
 
 ## About
 

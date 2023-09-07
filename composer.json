@@ -1,0 +1,9 @@
+{
+	"require": {
+        "league/oauth1-client": "1.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "wp-phpunit/wp-phpunit": "^6.1"
+    }
+}

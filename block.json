@@ -1,0 +1,83 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "map-garmin/map-garmin-activities",
+	"version": "0.1.0",
+	"title": "Map Garmin Activities",
+	"category": "widgets",
+	"icon": "location-alt",
+	"description": "Display Garmin activity start locations on a Mapbox map, plus GPX tracks.",
+	"supports": {
+	  "html": false
+	},
+	"attributes": {
+	  "mapGarminActivitiesTextField": {
+		"type": "string"
+	  },
+	  "zoom": {
+		"type": "integer",
+		"default": 13
+	  },
+	  "mapTitle": {
+		"type": "string"
+	  },
+	  "isTokenValid": {
+		"type": "boolean",
+		"default": true
+	  },
+	  "mapboxApiTokenField": {
+		"type": "string"
+	  },
+	  "mapStyle": {
+		"type": "string",
+		"default": "mapbox://styles/mapbox/satellite-streets-v12"
+	  },
+	  "trackColour": {
+		"type": "string",
+		"default": "#888888"
+	  },
+	  "trackThickness": {
+		"type": "number",
+		"default": 5
+	  },
+	  "markerColor": {
+		"type": "string",
+		"default": "red"
+	  },
+	  "mapCenter": {
+		"type": "object",
+		"default": {
+		  "longitude": -3.647891,
+		  "latitude": 57.120085
+		}
+	  },
+	  "pitch": {
+		"type": "number",
+		"default": 80
+	  },
+	  "bearing": {
+		"type": "number",
+		"default": 10
+	  },
+	  "trackCoords": {
+		"type": "string",
+		"default": ""
+	  },
+	  "trackURL": {
+		"type": "string",
+		"default": ""
+	  },
+	  "gpxAsJSON": {
+		"type": "string",
+		"default": ""
+	  },
+	  "showStartLocations": {
+		"type": "boolean",
+		"default": false
+	  }
+	},
+	"textdomain": "map-garmin-activities",
+	"editorScript": "file:build/index.js",
+	"editorStyle": "file:build/index.css",
+	"style": "file:build/style-index.css"
+  }
